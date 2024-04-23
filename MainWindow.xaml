@@ -7,15 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <RichTextBox
+        <RichTextBox 
             
-            Margin="112,141,203,93">
+            Margin="564,42,54,82">
             <FlowDocument>
                 <Paragraph>
-                    <Run Text="RichTextBox"/>
+                    <Run   
+                        x:Name="runErrorMessages"
+                        />
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
+        
+
+
 
     </Grid>
 </Window>
